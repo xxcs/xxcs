@@ -7,8 +7,7 @@ public class SingleObjectDoubleCheckedLocking implements SingleObject {
     private volatile static SingleObject instance;
     private SingleObjectDoubleCheckedLocking(){};
 
-    @Override
-    public SingleObject getInstance(){
+    public static SingleObject getInstance(){
         synchronized (SingleObjectDoubleCheckedLocking.class){
             if (instance == null){
                 instance = new SingleObjectDoubleCheckedLocking();

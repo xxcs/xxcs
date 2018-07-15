@@ -13,7 +13,7 @@ public class SingleObjectLazyThreadNotSafe implements SingleObject {
     private SingleObjectLazyThreadNotSafe(){}
 
     //获取唯一可用的对象
-    public SingleObject getInstance(){
+    public static SingleObject getInstance(){
         if (instance == null){
             instance =  new SingleObjectLazyThreadNotSafe();
         }

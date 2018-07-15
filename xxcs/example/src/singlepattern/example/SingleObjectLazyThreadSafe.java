@@ -8,8 +8,7 @@ public class SingleObjectLazyThreadSafe implements SingleObject {
     private static SingleObjectLazyThreadSafe instance;
     private SingleObjectLazyThreadSafe(){};
 
-    @Override
-    public SingleObject getInstance(){
+    public static SingleObject getInstance(){
         SingleObject a = get();
         return a;
     }

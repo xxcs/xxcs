@@ -7,8 +7,7 @@ public class SingleObjectHungry implements SingleObject {
     private static SingleObject instance = new SingleObjectHungry();
     private SingleObjectHungry(){};
 
-    @Override
-    public SingleObject getInstance(){
+    public static SingleObject getInstance(){
         return instance;
     }
 
