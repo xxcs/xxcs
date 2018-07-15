@@ -11,7 +11,7 @@ public class SingleObjectStaticInterior implements SingleObject {
     private SingleObjectStaticInterior(){};
 
     //public static final SingleObject getInstance()
-    public static SingleObject getInstance(){
+    public static final SingleObject getInstance(){
         return SingleObjectHolder.INSTANCE;
     }
 
