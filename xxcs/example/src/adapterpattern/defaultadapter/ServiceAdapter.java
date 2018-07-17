@@ -11,6 +11,6 @@ public class ServiceAdapter implements AbstractService {
     }
     @Override
     public  String serviceOperation3(){
-
+        return null;
     }
 }
