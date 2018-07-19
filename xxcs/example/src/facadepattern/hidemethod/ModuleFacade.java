@@ -15,6 +15,6 @@ public class ModuleFacade {
     }
 
     public void c1(){
-        c.c1(); 
+        c.c1();
     }
 }
