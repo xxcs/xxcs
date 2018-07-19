@@ -11,11 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/example$SingletonPatternDemo.ic" NAME="SingletonPatternDemo Coverage Results" MODIFIED="1531642386931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>singlepattern.example.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/example$SimpleFactoryMode.ic" NAME="SimpleFactoryMode Coverage Results" MODIFIED="1531398679867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>interview.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/example$SingletonPatternDemo.ic" NAME="SingletonPatternDemo Coverage Results" MODIFIED="1531642386931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>singlepattern.example.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
@@ -41,12 +41,8 @@
       <file leaf-file-name="SingleObjectLazyThreadNotSafe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectLazyThreadNotSafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="285">
               <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -63,12 +59,8 @@
       <file leaf-file-name="SingleObjectLazyThreadSafe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectLazyThreadSafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="190">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -76,14 +68,8 @@
       <file leaf-file-name="SingleObjectHungry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectHungry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="171">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -91,12 +77,8 @@
       <file leaf-file-name="SingleObjectDoubleCheckedLocking.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectDoubleCheckedLocking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
+            <state relative-caret-position="171">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +86,7 @@
       <file leaf-file-name="SingleObjectStaticInterior.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectStaticInterior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
+            <state relative-caret-position="128">
               <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding>
                 <element signature="e#418#419#0" expanded="true" />
@@ -172,8 +154,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="365" />
+    <option name="x" value="165" />
+    <option name="y" value="86" />
     <option name="width" value="1217" />
     <option name="height" value="577" />
   </component>
@@ -182,8 +164,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +217,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonPatternDemo">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractfactory.computer.Client" />
       <module name="example" />
@@ -346,9 +328,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Application.SimpleFactoryMode" />
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.FactoryMethodMode" />
       </list>
     </recent_temporary>
@@ -367,8 +349,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="365" width="1217" height="577" extended-state="0" />
-    <editor active="true" />
+    <frame x="165" y="86" width="1217" height="577" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,9 +359,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32829374" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32972524" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -394,15 +374,92 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32972524" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/computer/ComputerEngineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractfactory/computer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectLazyThreadNotSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectLazyThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectHungry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectDoubleCheckedLocking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/StringObjectEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingletonPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectStaticInterior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/abstractfactory/computer/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -623,47 +680,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectDoubleCheckedLocking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
+        <state relative-caret-position="171">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectHungry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="171">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectLazyThreadNotSafe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="285">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectLazyThreadSafe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="190">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/singlepattern/example/SingleObjectStaticInterior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
+        <state relative-caret-position="128">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="e#418#419#0" expanded="true" />
