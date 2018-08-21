@@ -12,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SemaphoreDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/semaphorelearn/example/SemaphoreDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IntelFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/abstractfactory/computer/IntelFactory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConcreteBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/builderpattern/example/ConcreteBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -69,11 +57,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="And.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/example/And.java">
+      <file leaf-file-name="Adaptee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/adapterpattern/classadapter/Adaptee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Caretaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mementopattern/black/Caretaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MementoIF.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mementopattern/black/MementoIF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -83,15 +89,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meditatorpattern/computer/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -181,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="190" />
     <option name="y" value="412" />
     <option name="width" value="967" />
@@ -215,20 +212,20 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="adapterpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="defaultadapter" type="462c0819:PsiDirectoryNode" />
+              <item name="classadapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="builderpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mementopattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="builderpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="mementopattern" type="462c0819:PsiDirectoryNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +380,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1294" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1294" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -455,9 +453,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/visitorpattern/example2/NodeA.java" />
-    <entry file="file://$PROJECT_DIR$/src/visitorpattern/example2/Visitor.java" />
-    <entry file="file://$PROJECT_DIR$/src/visitorpattern/example2/VisitorA.java" />
     <entry file="file://$PROJECT_DIR$/src/interpreterpattern/example/Expression.java" />
     <entry file="file://$PROJECT_DIR$/src/interpreterpattern/example/Or.java" />
     <entry file="file://$PROJECT_DIR$/src/interpreterpattern/example/Not.java" />
@@ -710,6 +705,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapterpattern/classadapter/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mementopattern/black/Caretaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mementopattern/black/MementoIF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
