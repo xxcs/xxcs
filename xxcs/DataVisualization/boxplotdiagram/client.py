@@ -28,7 +28,7 @@ widths：指定箱线图的宽度，默认为0.5；
 patch_artist：是否填充箱体的颜色；
 meanline：是否用线的形式表示均值，默认用点来表示；
 showmeans：是否显示均值，默认不显示；
-showcaps：是否显示箱线图顶端和末端的两条线，默认显示；
+showcaps：是否显示箱线图顶端和末端的两条线，默认显示
 showbox：是否显示箱线图的箱体，默认显示；
 showfliers：是否显示异常值，默认显示；
 boxprops：设置箱体的属性，如边框色，填充色等；
@@ -39,7 +39,7 @@ meanprops：设置均值的属性，如点的大小、颜色等；
 capprops：设置箱线图顶端和末端线条的属性，如颜色、粗细等；
 whiskerprops：设置须的属性，如颜色、粗细、线的类型等；
 """
-"""
+
 plt.boxplot(x=age,
             patch_artist=True,
             showmeans=True,
