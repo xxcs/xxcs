@@ -32,3 +32,26 @@
     4.作用：计算数组各元素的平方根
     5.实例
     6.应用场景：【可以利用meshgrid函数生成的坐标矩阵画网格】
+
+二.matplotlib
+    1）matplotlib.pylab
+        1.介绍：pylab将pyplot与numpy结合到一个命名空间中，对于交互式工作很方便，对于编程，建议将命名空间保持独立
+    2) matplotlib.pyplot(import matplotlib.pyplot as plt)
+        1.介绍：matplotlib.pyplot是一系列控制样式的（命令行风格）函数的集合，
+        每一个pyplot函数对一幅图片（figure）做出一些改动（创建新图片，在一个figure中创建一些新的作图区域（plotting area），
+        在一个作图区域内画直线，给图添加标签（label））
+        matplotlib.pyplot是有状态的，亦即它会保存当前图片和作图区域的状态，新的作图函数会作用在当前图片的状态基础之上
+
+    3）plt.figure()
+        1.介绍：
+        2.定义：figure(num=None, figsize=None, dpi=None, facecolor=None, edgecolor=None, frameon=True, FigureClass=Figure, clear=False, **kwargs)
+        3.参数：
+            num:如果此参数没有提供，则一个新的figure对象将被创建，同时增加figure的计数数值，此数值被保存在figure对象的一个数字属性当中。如果有此参数，且存在对应id的figure对象，则激活对于id的figure对象。如果对应id的figur对象不存在，则创建它并返回它。如果num的值是字符串，则将窗口标题设置为此字符串
+            figsize:以英寸为单位的宽高，缺省值为 rc figure.figsize (1英寸等于2.54厘米)
+            dpi: 图形分辨率,缺省值为rc figure.dpi
+            facecolor:背景色
+            edgecolor:边框颜色
+            frameon: 默认为true为绘制边框，如果为False则不绘制边框
+            FigureClass: Figure派生类，从派生类创建figure实例
+            clear: 重建figure实例
+        4.其它：图像分辨率指图像中存储的信息量，是每英寸图像内有多少个像素点，分辨率的单位为PPI(Pixels Per Inch)，通常叫做像素每英寸

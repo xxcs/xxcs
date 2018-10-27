@@ -4,10 +4,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+# 1.
 # fig: Figure(640x480)
-fig = plt.figure()
+# fig = plt.figure()
 
+
+
+fig = plt.figure(num='fig1', figsize=(6, 3), dpi=100, facecolor='#1913FF', edgecolor='#FF11B9')
+print fig
 # text_object: Text(0.5,0.98,'\xe8\xbf\x99\xe6\x98\xaf\xe4\xb8\xbb\xe9\xa2\x98')
 text_object = fig.suptitle("This is topic")
 
