@@ -47,11 +47,35 @@
         2.定义：figure(num=None, figsize=None, dpi=None, facecolor=None, edgecolor=None, frameon=True, FigureClass=Figure, clear=False, **kwargs)
         3.参数：
             num:如果此参数没有提供，则一个新的figure对象将被创建，同时增加figure的计数数值，此数值被保存在figure对象的一个数字属性当中。如果有此参数，且存在对应id的figure对象，则激活对于id的figure对象。如果对应id的figur对象不存在，则创建它并返回它。如果num的值是字符串，则将窗口标题设置为此字符串
-            figsize:以英寸为单位的宽高，缺省值为 rc figure.figsize (1英寸等于2.54厘米)
-            dpi: 图形分辨率,缺省值为rc figure.dpi
-            facecolor:背景色
-            edgecolor:边框颜色
+            figsize:以英寸为单位的宽高，缺省值为rcParams["figure.figsize"]=[6.4, 4.8] (1英寸等于2.54厘米)
+            dpi: 图形分辨率,缺省值为rcParams["figure.dpi"]= 100
+            facecolor:背景颜色，rcParams["figure.facecolor"]= 'w'
+            edgecolor:边框颜色，rcParams["figure.edgecolor"]= 'w'
             frameon: 默认为true为绘制边框，如果为False则不绘制边框
             FigureClass: Figure派生类，从派生类创建figure实例
-            clear: 重建figure实例
-        4.其它：图像分辨率指图像中存储的信息量，是每英寸图像内有多少个像素点，分辨率的单位为PPI(Pixels Per Inch)，通常叫做像素每英寸
+            clear: 如果为True并且该图已存在，那么它将被清除
+        4.返回值：一个Figure对象(fig)。Figure返回的实例也将传递给后端的new_figure_manager，这允许将自定义Figure类挂接到pyplot接口。其他kwargs将传递给Figure init函数
+        5.fig.suptitle('My topic', x='0.5', y='0.98')：添加主题，参数分别为主题名，在x轴的相对位置（1），在y轴的相对位置（1）
+        6.其它：图像分辨率指图像中存储的信息量，是每英寸图像内有多少个像素点，分辨率的单位为PPI(Pixels Per Inch)，通常叫做像素每英寸
+    4) plt.colse()
+        1.介绍：
+        2.定义：close(*args)
+        3.参数：
+            None: the current figure(当前figure)
+            Figure: the given Figure instance(给定的Figure实例)
+            int: a figure number
+            str: a figure name
+            all: all figures
+        4.返回值None
+    5) plt.errorbar()
+        1.介绍：绘制误差棒图
+        2.定义：errorbar(x, y, yerr=None, xerr=None, fmt='', ecolor=None, elinewidth=None,
+             capsize=None, barsabove=False, lolims=False, uplims=False,
+             xlolims=False, xuplims=False, errorevery=1, capthick=None,
+             hold=None, data=None, **kwargs)
+        3.参数
+            x,y:标量或数组，数据位置
+            xerr, yerr:标量或类似数组，shape(N,)或shape(2, N)
+                标量：所有数据点的对称+/-值
+                shape(N,):每个数据点的对称+/-值
+                shape(2, N): 第一排是较低的误差，第二排是较高的误差
