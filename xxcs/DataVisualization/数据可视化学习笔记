@@ -79,3 +79,13 @@
                 标量：所有数据点的对称+/-值
                 shape(N,):每个数据点的对称+/-值
                 shape(2, N): 第一排是较低的误差，第二排是较高的误差
+            fmt:
+            ecolor: 误差棒的颜色，默认使用连接线的颜色
+            elinewidth: 标量，误差棒的线宽。If None, the linewidth of the current style is used.
+            capsize: 标量
+
+            lolims，uplims，xlolims，xuplims ： bool，可选， 使用带反转轴的限制，set_xlim() 或set_ylim()必须先调用errorbar()
+
+            errorevery: 正整数，默认值为1。对误差棒进行子采样，如果errorevery=5,将绘制每隔5个数据点的误差棒，数据本身仍然显示所有数据点
+            4. 返回： ErrorbarContainer
+                The container 包含：plotline, caplines, barlinecols

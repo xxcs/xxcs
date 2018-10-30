@@ -2,10 +2,11 @@
 
 
 """
+误差棒：在散布图上，使用误差棒（error bar）注明所测量数据的不确定度的大小
 Errorbar Limits
-误差条界限
+误差棒界限
 Illustration of upper and lower limit symbols on errorbars
-误差条上下限符号的插图
+误差棒上下限符号的插图
 """
 
 
@@ -50,4 +51,12 @@ plt.errorbar(x + 1.2, y, xerr=0.1, xuplims=True)
 plt.xlim(-0.2, 2.4)
 plt.ylim(-0.1, 1.3)
 
+figure2 = plt.figure(2)
+x = np.arange(10.0) / 10.0
+y = x + 1
+
+plt.errorbar(x, y, xerr=0.05, yerr=0.05, ecolor='#FF1D06', elinewidth=1, errorevery=1)
+
 plt.show()
+
+
