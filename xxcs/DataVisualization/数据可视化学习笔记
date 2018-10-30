@@ -1,9 +1,16 @@
+英语：
+vertical: 垂直的
+horizontal: 水平的
+
 概念相关：
 第三章
     1.表面三维图：该数据定义为(X, Y)的函数Z，数学表示为Z=f(X, Y)
         举例:绘制Z = sin(sqrt(X2+Y2))
 
 程序相关：
+颜色的表示方法：1.#000000 - #FFFFFF
+                2.'r'红色，'g'绿色，'b'蓝色
+                3.[1, 0, 0]红色， [0, 1, 0]绿色，[0, 0, 1]蓝色
 一.numpy库（import numpy as np）
     1) np.arange
     1.函数名：np.arange
@@ -34,6 +41,17 @@
     6.应用场景：【可以利用meshgrid函数生成的坐标矩阵画网格】
 
 二.matplotlib
+    matplotlib简介：https://www.cnblogs.com/yinheyi/p/6056314.html
+    https://absentm.github.io
+    matplotlib实际上为面向对象的绘图库，它所绘制的每个元素都有一个对象与之对应的。
+    figure就是一个图啦，axes表示图上的一个画图区域啦，一个图上可以有多个画图区域的啦，意思就是说，一个图上可以有多个子图啊。
+    用函数plt.gcf(）与plt.gca()分别得到当前的figure与axes。（get current figure, get current axes)
+    plt.sca()函数实现把一个axes对象作为当前的axes（切换），plt.figure()即可创建也可切换
+
+    配置查看属性：
+        配置属性（3种方法）：调用对象的方法set_属性名()；通过对象的方法set()；通过pyplot模块提供的setp()函数
+
+
     1）matplotlib.pylab
         1.介绍：pylab将pyplot与numpy结合到一个命名空间中，对于交互式工作很方便，对于编程，建议将命名空间保持独立
     2) matplotlib.pyplot(import matplotlib.pyplot as plt)
@@ -89,3 +107,5 @@
             errorevery: 正整数，默认值为1。对误差棒进行子采样，如果errorevery=5,将绘制每隔5个数据点的误差棒，数据本身仍然显示所有数据点
             4. 返回： ErrorbarContainer
                 The container 包含：plotline, caplines, barlinecols
+    7) matplotlib.collections
+    高效绘制大量包含相同属性的对象的集合
